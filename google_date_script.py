@@ -8,6 +8,10 @@ import shutil
 ### just like the snapchat one put the folder path in "path" just like the snapchat script, 
 ### currently it doesn't go into subfolders, I should probably add that. 
 
+### Ope yep theres a thing I forgot. I guess I added the failed folder so it might not impact you who is running this now. 
+### There are some files with the suffix "-edited" I think that was google processing images, to me they all 
+### looked like duplicates so I deleted them, this is just a warning to anyone who sees a crazy amount of images in a failed folder 
+
 path = r"E:\Google Checkout\Takeout\Google Photos\Untitled(10)"
 
 for x in os.listdir(path):
